@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    font-style: normal;
+}
+body {
+    background: url('../image/a2222.jpg') no-repeat;
+
+}
+.box {
+    width: 700px;
+    height: 700px;
+    margin: 100px auto;
+}
+
+.scope {
+    width: 100%;
+    height: 700px;
+    background: url(../image/cxk1.jpg) no-repeat;
+    position: relative;
+}
+
+.box .title {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.box .detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.box .detail span {
+    font-size: 20px;
+}
+
+.box .detail i {
+    margin-left: 10px;
+}
+
+.box .detail .score {
+    color: saddlebrown;
+}
+
+.box .detail .status {
+    color: green;
+}
+
+.box .detail .fail {
+    color: red;
+}
